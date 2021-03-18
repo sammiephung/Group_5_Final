@@ -1,15 +1,25 @@
 .searchField {
     position: absolute;
-    top: 40%;
+    top: 45%;
     width: 100%;
     justify-content: center;
     align-items: center;
     z-index: 1;
 }
 
+.bg-light {
+    background-color: #F2F2F2 !important;
+}
+
 .jumbotron {
     display: flex;
     align-items: center;
-    height: 52.5vh;
+    height: 50vh;
     text-align: center;
+    background-color: #F2F2F2;
+}
+
+.col {
+    background-color: lightgray;
+    height: 19vw;
 }
