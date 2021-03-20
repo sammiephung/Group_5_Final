@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +17,7 @@
 
     <!--            Nav bar            -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -55,8 +57,8 @@
 
     <section>
         <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Not Amazon</h1>
+            <div class="container pt-5 mt-5">
+                <h1 class="display-2">Not Amazon</h1>
                 <p class="lead">Designed to connect you to your community by helping you shop through exclusively small
                     businesses.</p>
             </div>
@@ -67,17 +69,17 @@
 
     <form class="form-inline searchField">
 
-        <input type="text" class="form-control mx-1" placeholder="Search for anything..."
+        <input type="text" class="form-control mx-1 shadow" placeholder="Search for anything..."
             aria-label="Input group example" aria-describedby="basic-addon1">
 
-        <select class="custom-select mx-1" id="inlineFormCustomSelectPref">
+        <select class="custom-select mx-1 shadow" id="inlineFormCustomSelectPref">
             <option selected>All Categories</option>
             <option value="1">Foods</option>
             <option value="2">Products</option>
             <option value="3">Services</option>
         </select>
 
-        <select class="custom-select mx-1" id="inlineFormCustomSelectPref">
+        <select class="custom-select mx-1 shadow" id="inlineFormCustomSelectPref">
             <option selected>All Cities</option>
             <option value="1">Toronto</option>
             <option value="2">Halifax</option>
@@ -85,7 +87,7 @@
             <option value="4">Vancouver</option>
         </select>
 
-        <a href="results.html" type="submit" class="mx-1 btn btn-primary input-group-text" id="basic-addon1">
+        <a href="results.html" type="submit" class="mx-1 btn btn-primary input-group-text shadow" id="basic-addon1">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height=24 fill="currentColor" class="bi bi-search"
                 viewBox="0 0 16 16">
                 <path
@@ -98,7 +100,7 @@
 
     <!--             Featured businesses           -->
 
-    <div class="featured text-center mt-5">
+    <div class="featured text-center mt-5 pt-5">
         <h2>Featured Businesses</h2>
     </div>
 
@@ -108,7 +110,13 @@
                 <a class="nav-link" href="#">Food<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
+                <a class="nav-link disabled" href="#">I</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">I</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>

@@ -1,22 +1,52 @@
+body {
+    background-color: #fafafa;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #F9968B;
+}
+
+.lead {
+    color: #f2f2f2;
+}
+
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+}
+
 .searchField {
     position: absolute;
-    top: 45%;
+    top: 50%;
     width: 100%;
     justify-content: center;
     align-items: center;
     z-index: 1;
 }
 
-.bg-light {
-    background-color: #F2F2F2 !important;
+.navbar-top {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.bg-dark {
+    background-color: #26474E !important;
 }
 
 .jumbotron {
     display: flex;
     align-items: center;
-    height: 50vh;
+    height: 52vh;
     text-align: center;
-    background-color: #F2F2F2;
+    background-image: url(../images/heroBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    width: 50%;
 }
 
 .col {
