@@ -102,55 +102,54 @@ h1 {
 
 /*                                Featured                                    */
 
-.col {
-    background-color: lightgray;
-    height: 19vw;
+.featured .col {
+    height: 16vw;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .food1 {
     background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.11\ 2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .food2 {
     background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.12\ 2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .food3 {
     background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.13\ 3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .food4 {
     background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.13\ 4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .food5 {
     background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 8.43\ 3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .food6 {
     background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 8.44\ 4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .food7 {
     background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 8.44\ 5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .food8 {
     background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 8.50\ 2.jpg);
+}
+
+/*                                Results                                    */
+
+.searchResults .col {
+    height: 16vw;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*                                Pagination                                    */
+
+.page-link {
+    background-color: #fafafa;
 }

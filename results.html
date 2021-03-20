@@ -4,8 +4,8 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,8 +46,8 @@
                     <option value="4">Vancouver</option>
                 </select>
                 <a href="#" type="submit" class="mx-1 btn btn-primary input-group-text border-0" id="basic-addon1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height=24 fill="currentColor" class="bi bi-search"
-                        viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height=24 fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
                         <path
                             d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
                         </path>
@@ -70,39 +70,68 @@
         </div>
     </nav>
 
-    <!--             Items          -->
+    <!--             Breadcrumbs          -->
 
-    <section class="searchResults">
 
+
+    <!--             Results          -->
+
+    <section class="container searchResults">
+        <div class="row mx-5">
+            <div class="col mx-2 my-2 food1"></div>
+            <div class="col mx-2 my-2 food2"></div>
+            <div class="col mx-2 my-2 food3"></div>
+            <div class="col mx-2 my-2 food4"></div>
+        </div>
+
+        <div class="row mx-5">
+            <div class="col mx-2 my-2 food5"></div>
+            <div class="col mx-2 my-2 food6"></div>
+            <div class="col mx-2 my-2 food7"></div>
+            <div class="col mx-2 my-2 food8"></div>
+        </div>
     </section>
 
+    <!--             Pagination          -->
+
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center mt-5">
+                    <li class="page-item"><a class="page-link border-0" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link border-0" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link border-0" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link border-0" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link border-0" href="#">Next</a></li>
+                </ul>
+            </nav>
 
 
     <!--             Footer          -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5">
         <a class="navbar-brand ml-5 my-4" href="index.html">Not Amazon</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse mr-5 my-4" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link mr-3" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mr-3" href="#">Featured</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link mr-3" href="#">FAQ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-          </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link mr-3" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-3" href="#">Featured</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-3" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
 
     <!--             jQuery          -->
 
