@@ -23,3 +23,7 @@
     background-color: lightgray;
     height: 19vw;
 }
+
+.navbar-toggler-icon {
+    height: auto;
+}
