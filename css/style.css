@@ -33,6 +33,16 @@ body {
     height: auto;
 }
 
+/*                               Bottom nav                                    */
+
+.navbar-light .navbar-brand {
+    color: #26474E !important;
+}
+
+.bg-light {
+    background-color: #76CDCD !important;
+}
+
 /*                               Hero                                    */
 
 h1 {
@@ -58,7 +68,13 @@ h1 {
     width: 50%;
 }
 
-/*                                Button                                    */
+/*                                Search                                    */
+
+.form-row> [class*=col-] {
+    padding-left: 10px;
+}
+
+/*                                Buttons                                    */
 
 .btn-primary {
     background-color: #F27348;
@@ -70,16 +86,71 @@ h1 {
     background-color: #ED5C2A !important;
 }
 
+.btn-secondary {
+    background-color: #26474E;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active{
+    background-color: #0A272D !important;
+}
 
 .input-group-text {
     color: white;
 }
+
+/*                                Featured                                    */
 
 .col {
     background-color: lightgray;
     height: 19vw;
 }
 
-.form-row> [class*=col-] {
-    padding-left: 10px;
+.food1 {
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.11\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food2 {
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.12\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food3 {
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.13\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food4 {
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.13\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food5 {
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 8.43\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food6 {
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 8.44\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food7 {
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 8.44\ 5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food8 {
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 8.50\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
