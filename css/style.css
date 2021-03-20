@@ -2,18 +2,12 @@ body {
     background-color: #fafafa;
 }
 
-h1 {
-    font-family: 'Bebas Neue', cursive;
-    color: #F9968B;
-}
-
-.lead {
-    color: #f2f2f2;
-}
+/*                               Top nav                                    */
 
 .navbar-brand {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     font-size: 2em;
+    color: #F9968B !important;
 }
 
 .searchField {
@@ -35,6 +29,21 @@ h1 {
     background-color: #26474E !important;
 }
 
+.navbar-toggler-icon {
+    height: auto;
+}
+
+/*                               Hero                                    */
+
+h1 {
+    font-family: 'Bebas Neue';
+    color: #F9968B;
+}
+
+.lead {
+    color: #f2f2f2;
+}
+
 .jumbotron {
     display: flex;
     align-items: center;
@@ -49,11 +58,28 @@ h1 {
     width: 50%;
 }
 
+/*                                Button                                    */
+
+.btn-primary {
+    background-color: #F27348;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active{
+    background-color: #ED5C2A !important;
+}
+
+
+.input-group-text {
+    color: white;
+}
+
 .col {
     background-color: lightgray;
     height: 19vw;
 }
 
-.navbar-toggler-icon {
-    height: auto;
+.form-row> [class*=col-] {
+    padding-left: 10px;
 }
