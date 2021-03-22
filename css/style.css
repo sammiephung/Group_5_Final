@@ -1,6 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fafafa;
 }
+
+.container {
+    max-width: 75%;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    color: #F9968B;
+}
+
+h2 {
+    color: #26474E !important;
+    margin-bottom: 2rem;
+}
+
+.prodDes span {
+    text-align: right;
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-weight: 200;
+}
+
+h5,
+p {
+    margin-bottom: 0.25rem;
+}
+
+p {
+    line-height: 1.65rem;
+}
+
+.salmon {
+    color: #F9968B;
+}
+
+.turquoise {
+    color: #76CDCD;
+}
+
+.row a {
+    color: #26474E;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.float-right {
+    z-index: 1;
+}
+
+
 
 /*                               Top nav                                    */
 
@@ -12,7 +70,7 @@ body {
 
 .searchField {
     position: absolute;
-    top: 50%;
+    top: 49.5%;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -45,11 +103,6 @@ body {
 
 /*                               Hero                                    */
 
-h1 {
-    font-family: 'Bebas Neue';
-    color: #F9968B;
-}
-
 .lead {
     color: #f2f2f2;
 }
@@ -70,8 +123,12 @@ h1 {
 
 /*                                Search                                    */
 
-.form-row> [class*=col-] {
+.form-row>[class*=col-] {
     padding-left: 10px;
+}
+
+.searchField .form-control {
+    font-size: 1.3em;
 }
 
 /*                                Buttons                                    */
@@ -82,7 +139,7 @@ h1 {
 
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active{
+.btn-primary:active {
     background-color: #ED5C2A !important;
 }
 
@@ -92,7 +149,7 @@ h1 {
 
 .btn-secondary:hover,
 .btn-secondary:focus,
-.btn-secondary:active{
+.btn-secondary:active {
     background-color: #0A272D !important;
 }
 
@@ -100,20 +157,34 @@ h1 {
     color: white;
 }
 
+.btn-outline-dark {
+    color: #0A272D;
+    border-color: #BDBDBD;
+}
+
+.btn-outline-dark:hover {
+    background-color: #26474E;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
 /*                                Featured                                    */
 
-.featured .col {
-    height: 16vw;
+.square {
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    padding-bottom: 100%;
 }
 
 .food1 {
-    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.11\ 2.jpg);
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 8.50\ 2.jpg);
 }
 
 .food2 {
-    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.12\ 2.jpg);
+    background-image: url(../images/foods/Screen\ Shot\ 2021-03-17\ at\ 7.11\ 2.jpg);
 }
 
 .food3 {
@@ -142,14 +213,65 @@ h1 {
 
 /*                                Results                                    */
 
-.searchResults .col {
-    height: 16vw;
-    background-repeat: no-repeat;
-    background-size: cover;
+.item1 {
+    background-image: url(../images/items/1.jpg);
 }
+
+.item2 {
+    background-image: url(../images/items/2.jpg);
+}
+
+.item3 {
+    background-image: url(../images/items/3.jpg);
+}
+
+.item4 {
+    background-image: url(../images/items/4.jpg);
+}
+
+.item5 {
+    background-image: url(../images/items/5.jpg);
+}
+
+.item6 {
+    background-image: url(../images/items/6.jpg);
+}
+
+.item7 {
+    background-image: url(../images/items/7.jpg);
+}
+
+.item8 {
+    background-image: url(../images/items/8.jpg);
+}
+
+.item9 {
+    background-image: url(../images/items/9.jpg);
+}
+
+.item10 {
+    background-image: url(../images/items/10.jpg);
+}
+
+.item11 {
+    background-image: url(../images/items/11.jpg);
+}
+
+.item12 {
+    background-image: url(../images/items/12.jpg);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/*                                Product Page                                    */
+
+
 
 /*                                Pagination                                    */
 
 .page-link {
-    background-color: #fafafa;
+    background-color: transparent;
+    color: #26474E;
 }
