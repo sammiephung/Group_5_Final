@@ -17,7 +17,6 @@ h1 {
 
 h2 {
     color: #26474E !important;
-    margin-bottom: 2rem;
 }
 
 .prodDes span {
@@ -58,7 +57,15 @@ a:hover {
     z-index: 1;
 }
 
+.btn-block a {
+    color: white;
+    text-align: center;
+}
 
+.btn-block a:hover {
+    color: white;
+    text-align: center;
+}
 
 /*                               Top nav                                    */
 
@@ -105,6 +112,7 @@ a:hover {
 
 .lead {
     color: #f2f2f2;
+    line-height: 2rem;
 }
 
 .jumbotron {
